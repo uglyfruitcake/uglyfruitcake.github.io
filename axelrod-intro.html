@@ -94,10 +94,13 @@ repository can be viewed <a href="https://github.com/Axelrod-Python/Axelrod">her
 <li>If they both defect they will both receive 1 point.</li>
 <li>If one cooperates and one defects then the defector will receive 5 points and the cooperator will receive 0 points.</li>
 </ul>
-<div class="math">$$\begin{pmatrix}
+<p>It can also be defined by this payoff matrix:</p>
+<div class="math">$$
+\begin{pmatrix}
 (1,1) &amp; (5,0)\\
 (0,5) &amp; (3,3)\\
-\end{pmatrix}$$</div>
+\end{pmatrix}
+$$</div>
 <p>The aim of the game is to maximise your score over 200 rounds. The only information available to you is your opponent's history so far.</p>
 <p>In Axelrod-Python strategies are submitted as python code. Each strategy will
 play every other in a tournament and the strategy with the highest average score

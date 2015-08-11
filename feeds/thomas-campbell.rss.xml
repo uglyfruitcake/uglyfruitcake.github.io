@@ -10,6 +10,10 @@ repository can be viewed &lt;a href="https://github.com/Axelrod-Python/Axelrod"&
 &lt;li&gt;If they both defect they will both receive 1 point.&lt;/li&gt;
 &lt;li&gt;If one cooperates and one defects then the defector will receive 5 points and the cooperator will receive 0 points.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class="math"&gt;$$\begin{pmatrix}
+(1,1) &amp;amp; (5,0)\\
+(0,5) &amp;amp; (3,3)\\
+\end{pmatrix}$$&lt;/div&gt;
 &lt;p&gt;The aim of the game is to maximise your score over 200 rounds. The only information available to you is your opponent's history so far.&lt;/p&gt;
 &lt;p&gt;In Axelrod-Python strategies are submitted as python code. Each strategy will
 play every other in a tournament and the strategy with the highest average score
@@ -21,7 +25,63 @@ prisoner's dilemma
 &lt;a href="http://axelrod.readthedocs.org/en/latest/background.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Axelrod-Python is an open source project and so anyone can contribute. If you
 want to contribute, there are instructions on how to on the repository
-&lt;a href="https://github.com/Axelrod-Python/Axelrod/blob/master/README.rst"&gt;Readme&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Campbell</dc:creator><pubDate>Tue, 11 Aug 2015 00:00:00 +0100</pubDate><guid>tag:thomascampbell.me.uk,2015-08-11:axelrod-intro.html</guid></item><item><title>Nice and Mean Strategies</title><link>http://thomascampbell.me.uk/axelrod-nice-and-mean-strategies.html</link><description>&lt;p&gt;One way of grouping strategies is be splitting them into “nice” and “mean”
+&lt;a href="https://github.com/Axelrod-Python/Axelrod/blob/master/README.rst"&gt;Readme&lt;/a&gt;.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+    
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript'; 
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Campbell</dc:creator><pubDate>Tue, 11 Aug 2015 00:00:00 +0100</pubDate><guid>tag:thomascampbell.me.uk,2015-08-11:axelrod-intro.html</guid></item><item><title>Nice and Mean Strategies</title><link>http://thomascampbell.me.uk/axelrod-nice-and-mean-strategies.html</link><description>&lt;p&gt;One way of grouping strategies is be splitting them into “nice” and “mean”
 strategies. Nice strategies will never defect before their opponent has defected
 and so will never defect first. Hence if two nice strategies play each other,
 the outcome will always be cooperation on every turn. This is called a

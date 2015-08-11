@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thomas Campbell</title><link>http://thomascampbell.me.uk/</link><description></description><atom:link href="http://thomascampbell.me.uk/feeds/thomas-campbell.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 05 Aug 2015 00:00:00 +0100</lastBuildDate><item><title>Axelrod Python Strategies</title><link>http://thomascampbell.me.uk/axelrod.html</link><description>&lt;h2&gt;Axelrod-Python&lt;/h2&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thomas Campbell</title><link>http://thomascampbell.me.uk/</link><description></description><atom:link href="http://thomascampbell.me.uk/feeds/thomas-campbell.rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 11 Aug 2015 00:00:00 +0100</lastBuildDate><item><title>An Introduction to Axelrod-Python</title><link>http://thomascampbell.me.uk/axelrod-intro.html</link><description>&lt;h2&gt;Axelrod-Python&lt;/h2&gt;
+&lt;p&gt;I recently started contributing to a project called Axelrod-Python and have
+found it very interesting.&lt;/p&gt;
+&lt;p&gt;Axelrod-Python is a repository on Github dedicated to recreating Robert
+Axelrod’s original iterated prisoner's dilemma tournaments in python in the
+1980's. The repository can be viewed
+&lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Axelrod's original tournament was used to simulate evolution and investigate how
+cooperation can evolve over time. This project aims to reproduce that work. You
+can read about Axelrod's original tournaments and learn more about the
+prisoner's dilemma
+&lt;a href="http://axelrod.readthedocs.org/en/latest/background.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Axelrod-Python is an open source project and so anyone can contribute. If you
+want to contribute, there are instructions on how to on the repository
+&lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;Readme&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Campbell</dc:creator><pubDate>Tue, 11 Aug 2015 00:00:00 +0100</pubDate><guid>tag:thomascampbell.me.uk,2015-08-11:axelrod-intro.html</guid></item><item><title>Axelrod Python Strategies</title><link>http://thomascampbell.me.uk/axelrod.html</link><description>&lt;h2&gt;Axelrod-Python&lt;/h2&gt;
 &lt;p&gt;I recently started contributing to a project called Axelrod-Python and have
 found it very interesting.&lt;/p&gt;
 &lt;p&gt;Axelrod-Python is a repository on Github dedicated to recreating Robert
@@ -98,4 +112,4 @@ and minimize their scores.&lt;/p&gt;
 other strategy's.&lt;/p&gt;
 &lt;h2&gt;Double-Crosser&lt;/h2&gt;
 &lt;p&gt;&lt;img src="/images/strategies_payoff_no_doublecrosser.png" alt="Strategies
-payoff" style="width: 1000px;"/&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Campbell</dc:creator><pubDate>Wed, 05 Aug 2015 00:00:00 +0100</pubDate><guid>tag:thomascampbell.me.uk,2015-08-05:axelrod.html</guid></item></channel></rss>
+payoff" style="width: 800px;"/&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Campbell</dc:creator><pubDate>Wed, 05 Aug 2015 00:00:00 +0100</pubDate><guid>tag:thomascampbell.me.uk,2015-08-05:axelrod.html</guid></item></channel></rss>

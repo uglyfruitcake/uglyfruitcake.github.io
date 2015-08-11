@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Campbell</title><link href="http://thomascampbell.me.uk/" rel="alternate"></link><link href="http://thomascampbell.me.uk/feeds/misc.atom.xml" rel="self"></link><id>http://thomascampbell.me.uk/</id><updated>2015-08-05T00:00:00+01:00</updated><entry><title>Axelrod Python Strategies</title><link href="http://thomascampbell.me.uk/axelrod.html" rel="alternate"></link><updated>2015-08-05T00:00:00+01:00</updated><author><name>Thomas Campbell</name></author><id>tag:thomascampbell.me.uk,2015-08-05:axelrod.html</id><summary type="html">&lt;h2&gt;Axelrod-Python&lt;/h2&gt;
 &lt;p&gt;Axelrod-Python is a repository on Github dedicated to recreating Axelrod’s
-original tournaments in python. The repository can be viewed
-&lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can read more about Axelrod's original tournament
+original iterated prisoner's dilemma tournaments in python. The repository can
+be viewed &lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can read more about Axelrod's original tournaments
 &lt;a href="http://axelrod.readthedocs.org/en/latest/background.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The project is open source and so anyone can submit a strategy. Once the
-tournament is run, a boxplot is generated and displayed on the Readme of the
-repository so that everyone can see the winning strategies. As of June 2015
-there were 66 strategies submitted to Axelrod-Python. The boxplot looked like
-this:&lt;/p&gt;
+&lt;p&gt;I recently started contributing to this project and have found it very
+interesting. The project is open source and so anyone can submit a strategy.
+Once the tournament is run, a boxplot is generated and displayed on the Readme
+of the repository so that everyone can see the winning strategies. As of June
+2015 there were 66 strategies submitted to Axelrod-Python. The boxplot looked
+like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src="/images/strategies_boxplot_june_2015.png" alt="Strategies boxplot from
 June 2015" style="width: 1000px;"/&gt;&lt;/p&gt;
 &lt;h2&gt;Nice and Mean Strategies&lt;/h2&gt;

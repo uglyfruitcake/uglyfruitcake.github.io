@@ -12,4 +12,18 @@ prisoner's dilemma
 &lt;a href="http://axelrod.readthedocs.org/en/latest/background.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Axelrod-Python is an open source project and so anyone can contribute. If you
 want to contribute, there are instructions on how to on the repository
-&lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;Readme&lt;/a&gt;.&lt;/p&gt;</summary></entry></feed>
+&lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;Readme&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>Axelrod Python Strategies</title><link href="http://thomascampbell.me.uk/axelrod-nice-and-mean-strategies.html" rel="alternate"></link><updated>2015-08-11T00:00:00+01:00</updated><author><name>Thomas Campbell</name></author><id>tag:thomascampbell.me.uk,2015-08-11:axelrod-nice-and-mean-strategies.html</id><summary type="html">&lt;h2&gt;Nice and Mean Strategies&lt;/h2&gt;
+&lt;p&gt;One way of grouping strategies is be splitting them into “nice” and “mean”
+strategies. Nice strategies will never defect before their opponent has defected
+and so will never defect first. Hence if two nice strategies play each other,
+the outcome will always be cooperation on every turn. This is called a
+“cooperation cycle”.&lt;/p&gt;
+&lt;p&gt;A mean strategy is a strategy that may defect before the opponent. Any
+randomised strategy is by definition mean.&lt;/p&gt;
+&lt;p&gt;The advantage of a nice strategy is that when both players cooperate they
+maximise their points as a pair. They receive 6 points overall, which is more
+than any other situation.&lt;/p&gt;
+&lt;p&gt;Mean strategies will anger other strategies by defecting. If two strategies end
+up defecting against each other on every turn it is called a “defection cycle”.
+This is the worst possible outcome as the pair only receives 2 points overall.&lt;/p&gt;
+&lt;p&gt;Therefore it is easy to see that a cooperation cycle is desirable.&lt;/p&gt;</summary></entry></feed>

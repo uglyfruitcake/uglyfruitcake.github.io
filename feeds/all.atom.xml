@@ -6,8 +6,9 @@ found it very interesting.&lt;/p&gt;
 Axelrod’s original iterated prisoner's dilemma tournaments in python in the
 1980's. The repository can be viewed
 &lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Axelrod's original tournament was used to simulate evolution and investigate how cooperation can evolve over time. This project aims to reproduce that work.&lt;/p&gt;
-&lt;p&gt;You can read about Axelrod's original tournaments and learn more about the
+&lt;p&gt;Axelrod's original tournament was used to simulate evolution and investigate how
+cooperation can evolve over time. This project aims to reproduce that work. You
+can read about Axelrod's original tournaments and learn more about the
 prisoner's dilemma
 &lt;a href="http://axelrod.readthedocs.org/en/latest/background.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Axelrod-Python is an open source project and so anyone can contribute. If you want to contribute, there are instructions on how to on the repository &lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;Readme&lt;/a&gt;.&lt;/p&gt;
@@ -32,7 +33,7 @@ displayed on the Readme of the repository so that everyone can see the winning
 strategies. As of June 2015 there were 66 strategies submitted to
 Axelrod-Python. The boxplot looked like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src="/images/strategies_boxplot_june_2015.png" alt="Strategies boxplot from
-June 2015" style="width: 500px;"/&gt;&lt;/p&gt;
+June 2015" style="width: 800px;"/&gt;&lt;/p&gt;
 &lt;p&gt;As you can see, in June 2015 "Meta Hunter” was the current winning strategy on
 Axelrod-Python. This strategy was one of the more complicated strategies of the
 tournament. It worked by combining various “hunters” that hunted specific mean

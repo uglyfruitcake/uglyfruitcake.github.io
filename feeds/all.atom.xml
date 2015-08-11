@@ -3,7 +3,8 @@
 &lt;p&gt;Axelrod-Python is a repository on Github dedicated to recreating Axelrod’s
 original iterated prisoner's dilemma tournaments in python. The repository can
 be viewed &lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can read more about Axelrod's original tournaments
+&lt;p&gt;You can read about Axelrod's original tournaments and learn more about the
+prisoner's dilemma
 &lt;a href="http://axelrod.readthedocs.org/en/latest/background.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I recently started contributing to this project and have found it very
 interesting. The project is open source and so anyone can submit a strategy.

@@ -2,10 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Thomas Campbell</title><link href="http://thomascampbell.me.uk/" rel="alternate"></link><link href="http://thomascampbell.me.uk/feeds/thomas-campbell.atom.xml" rel="self"></link><id>http://thomascampbell.me.uk/</id><updated>2015-08-11T00:00:00+01:00</updated><entry><title>An Introduction to Axelrod-Python</title><link href="http://thomascampbell.me.uk/axelrod-intro.html" rel="alternate"></link><updated>2015-08-11T00:00:00+01:00</updated><author><name>Thomas Campbell</name></author><id>tag:thomascampbell.me.uk,2015-08-11:axelrod-intro.html</id><summary type="html">&lt;h2&gt;Axelrod-Python&lt;/h2&gt;
 &lt;p&gt;I recently started contributing to a project called Axelrod-Python and have
 found it very interesting.&lt;/p&gt;
-&lt;p&gt;Axelrod-Python is a repository on Github dedicated to recreating Robert
-Axelrod’s original iterated prisoner's dilemma tournaments in python in the
-1980's. The repository can be viewed
-&lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Axelrod-Python is a python project dedicated to recreating Robert Axelrod’s
+original iterated prisoner's dilemma tournaments in the 1980's. The Github
+repository can be viewed &lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Axelrod's original tournament was used to simulate evolution and investigate how
 cooperation can evolve over time. This project aims to reproduce that work. You
 can read about Axelrod's original tournaments and learn more about the
@@ -13,20 +12,7 @@ prisoner's dilemma
 &lt;a href="http://axelrod.readthedocs.org/en/latest/background.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Axelrod-Python is an open source project and so anyone can contribute. If you
 want to contribute, there are instructions on how to on the repository
-&lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;Readme&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>Axelrod Python Strategies</title><link href="http://thomascampbell.me.uk/axelrod.html" rel="alternate"></link><updated>2015-08-05T00:00:00+01:00</updated><author><name>Thomas Campbell</name></author><id>tag:thomascampbell.me.uk,2015-08-05:axelrod.html</id><summary type="html">&lt;h2&gt;Axelrod-Python&lt;/h2&gt;
-&lt;p&gt;I recently started contributing to a project called Axelrod-Python and have
-found it very interesting.&lt;/p&gt;
-&lt;p&gt;Axelrod-Python is a repository on Github dedicated to recreating Robert
-Axelrod’s original iterated prisoner's dilemma tournaments in python in the
-1980's. The repository can be viewed
-&lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Axelrod's original tournament was used to simulate evolution and investigate how
-cooperation can evolve over time. This project aims to reproduce that work. You
-can read about Axelrod's original tournaments and learn more about the
-prisoner's dilemma
-&lt;a href="http://axelrod.readthedocs.org/en/latest/background.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Axelrod-Python is an open source project and so anyone can contribute. If you want to contribute, there are instructions on how to on the repository &lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;Readme&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Nice and Mean Strategies&lt;/h2&gt;
+&lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;Readme&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>Axelrod Python Strategies</title><link href="http://thomascampbell.me.uk/axelrod.html" rel="alternate"></link><updated>2015-08-05T00:00:00+01:00</updated><author><name>Thomas Campbell</name></author><id>tag:thomascampbell.me.uk,2015-08-05:axelrod.html</id><summary type="html">&lt;h2&gt;Nice and Mean Strategies&lt;/h2&gt;
 &lt;p&gt;One way of grouping strategies is be splitting them into “nice” and “mean”
 strategies. Nice strategies will never defect before their opponent has defected
 and so will never defect first. Hence if two nice strategies play each other,

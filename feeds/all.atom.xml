@@ -21,7 +21,7 @@ prisoner's dilemma
 &lt;a href="http://axelrod.readthedocs.org/en/latest/background.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Axelrod-Python is an open source project and so anyone can contribute. If you
 want to contribute, there are instructions on how to on the repository
-&lt;a href="https://github.com/Axelrod-Python/Axelrod"&gt;Readme&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>Nice and Mean Strategies</title><link href="http://thomascampbell.me.uk/axelrod-nice-and-mean-strategies.html" rel="alternate"></link><updated>2015-08-11T00:00:00+01:00</updated><author><name>Thomas Campbell</name></author><id>tag:thomascampbell.me.uk,2015-08-11:axelrod-nice-and-mean-strategies.html</id><summary type="html">&lt;p&gt;One way of grouping strategies is be splitting them into “nice” and “mean”
+&lt;a href="https://github.com/Axelrod-Python/Axelrod/blob/master/README.rst"&gt;Readme&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>Nice and Mean Strategies</title><link href="http://thomascampbell.me.uk/axelrod-nice-and-mean-strategies.html" rel="alternate"></link><updated>2015-08-11T00:00:00+01:00</updated><author><name>Thomas Campbell</name></author><id>tag:thomascampbell.me.uk,2015-08-11:axelrod-nice-and-mean-strategies.html</id><summary type="html">&lt;p&gt;One way of grouping strategies is be splitting them into “nice” and “mean”
 strategies. Nice strategies will never defect before their opponent has defected
 and so will never defect first. Hence if two nice strategies play each other,
 the outcome will always be cooperation on every turn. This is called a
